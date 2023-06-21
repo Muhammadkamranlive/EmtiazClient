@@ -1,0 +1,34 @@
+<!-- <div class="bottom-navigation">
+  <a href="#" class="custom-nav-item active">
+    <i class="fas fa-home"></i>
+  </a>
+  <a href="#" class="custom-nav-item">
+    <i class="fas fa-search"></i>
+  </a>
+  <a href="#" class="custom-nav-item center-item">
+    <i class="fas fa-plus"></i>
+  </a>
+  <a href="#" class="custom-nav-item">
+    <i class="fas fa-bell"></i>
+  </a>
+  <a href="#" class="custom-nav-item">
+    <i class="fas fa-user"></i>
+  </a>
+</div> -->
+
+<div class="bottom-bar fixed-bottom">
+  <span class="icon" [ngClass]="{'active1': activeIcon === 1}" (click)="change(1)">
+    <i class="bi bi-house"></i>
+  </span>
+  <span class="icon" [ngClass]="{'active1': activeIcon === 2}" (click)="change(2)">
+    <i class="bi bi-folder"></i>
+  </span>
+  <span class="icon" [ngClass]="{'active1': activeIcon === 3}" (click)="change(3)">
+    <i class="bi bi-plus-circle"></i>
+  </span>
+  <span class="icon" [ngClass]="{'active1': activeIcon === 4}" (click)="change(4)">
+    <i class="bi bi-person"></i>
+  </span>
+ 
+</div>
+
