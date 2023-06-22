@@ -34290,6 +34290,7 @@ a:hover .text-inherit {
 .leaflet-popup {
   margin-bottom: 2.5rem
 }
+
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .bottom-navigation {
@@ -34409,16 +34410,17 @@ a:hover .text-inherit {
 }
 
 
-.bottom-bar{
+.bottom-bar {
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin-top: 20em;
   max-width: 100%;
- 
+
 }
-.icon{
+
+.icon {
   font-size: 1em;
   padding: 1em;
   margin: 1em;
@@ -34427,28 +34429,37 @@ a:hover .text-inherit {
   border-radius: 100%;
   border: 7px solid #eee;
 }
-.active1{
+
+.active1 {
   transform: scale(1.25) translateY(-1em);
-  background: linear-gradient(135deg, #23f,#6589ff);
+  background: linear-gradient(135deg, #23f, #6589ff);
   border: 7px solid #dcdcdc;
   color: white;
 }
 
 
-.bg-light
-{
-  background-color:  rgb(243,244,245) !important;
+.bg-light {
+  background-color: rgb(243, 244, 245) !important;
 }
 
-.sidebar-detached-content{
-  background-color:  rgb(243,244,245) !important;
+.sidebar-detached-content {
+  background-color: rgb(243, 244, 245) !important;
 }
 
-.bg-white{
+.bg-white {
   background-color: #fff !important;
 }
 
 
-.navbar-expand-lg{
+.navbar-expand-lg {
   background-color: #fff !important;
 }
+
+
+
+
+
+
+
+
+
